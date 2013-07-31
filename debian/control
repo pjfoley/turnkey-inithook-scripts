@@ -1,13 +1,13 @@
-Source: inithooks
+Source: turnkey-inithook-scripts
 Section: admin
 Priority: optional
 Maintainer: Alon Swartz <alon@turnkeylinux.org>
 Build-Depends: debhelper (>> 4.2.0)
 Standards-Version: 3.6.1
 
-Package: inithooks
+Package: turnkey-inithook-scripts
 Architecture: any
-Depends: console-tools | console-utilities, turnkey-pylib
+Depends: inithooks-base, console-tools | console-utilities, turnkey-pylib
 Recommends: confconsole (>= 0.9.4+36+g2256734)
 Section: admin
-Description: Executes firstboot and everyboot scripts
+Description: Contains scripts needed by Turnkey Linux
